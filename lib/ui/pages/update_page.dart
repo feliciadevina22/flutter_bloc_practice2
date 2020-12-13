@@ -135,7 +135,7 @@ class _UpdatePageState extends State<UpdatePage> {
                                 chooseImage();
                               },
                               icon: Icon(Icons.image),
-                              label: Text("Rehoose from Galery"),
+                              label: Text("Rehoose from Gallery"),
                             ),
                             Semantics(
                               child: Image.file(
@@ -269,7 +269,7 @@ class _UpdatePageState extends State<UpdatePage> {
                             });
                           }
                         },
-                        child: Text("Delete Data"),
+                        child: Text("Delete Product"),
                       )
                     ],
                   ),
