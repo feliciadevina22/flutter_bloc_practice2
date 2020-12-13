@@ -22,8 +22,7 @@ class _AccountPageState extends State<AccountPage> {
     });
   }
 
-  @override
-  Widget build(BuildContext context) {
+  void getUserdata() {
     //Ambil data
     document.doc(user.uid).snapshots().listen((event) {
       name = event.data()['name'];
@@ -33,7 +32,15 @@ class _AccountPageState extends State<AccountPage> {
       }
       setState(() {});
     });
+  }
 
+  void initState() {
+    getUserdata();
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text("Account Data"),
