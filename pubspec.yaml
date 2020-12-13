@@ -30,6 +30,7 @@ dependencies:
   firebase_core: ^0.5.2
   firebase_storage: ^5.1.0
   flutter_bloc: ^6.0.6
+  flutter_launcher_icons: ^0.8.1
   flutter_spinkit: ^4.1.2+1
   fluttertoast: ^7.1.5
   image_picker: ^0.6.7+15
@@ -38,6 +39,11 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/icon/green-tea.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
