@@ -97,7 +97,7 @@ class _AccountPageState extends State<AccountPage> {
                       SizedBox(
                         height: 5,
                       ),
-                      Text(name ?? 's'),
+                      Text(name ?? 'Name'),
                       SizedBox(
                         height: 5,
                       ),
