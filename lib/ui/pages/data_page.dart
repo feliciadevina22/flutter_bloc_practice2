@@ -14,7 +14,7 @@ class _DataPageState extends State<DataPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Account Data"),
+        title: Text("Product List"),
         backgroundColor: Colors.indigo,
         centerTitle: true,
         leading: Container(),
